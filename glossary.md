@@ -45,7 +45,8 @@
 - **Nation-state Hacker:** Hackers who seek to provide a strategic advantage to their country through methods such as reconnaissance or information manipulation.
 - **Network Address:** The starting portion of an IP Address that identifies the network i.e *192.168.1*.0 .
 ## O
-
+- **OSI (Open Systems Interconnection) Model:** A model depicting how all networked devices send, receive and interpret data. Physical > Data Link > Network > Transport > Session > Presentation > Application.
+- **OSPF (Open Shortest Path First):** A protocol to used to determine where to send data at the network layer of the OSI by selecting the path with the least devices to transverse.
 ## P
 - **Physical Security:** Protecting physical devices and other tangible assests from physical threats such as theft or natural disasters.
 ## Q
@@ -63,8 +64,10 @@
 - **SOC (Security Operations Centre):** A centralised unit responsible for managing and responding to cybersecurity threats.
 - **Subnetting:** Splitting up a network into smaller networks.
 ## T
+- **TCP (Transmission Control Protocol):** A protocol at the transport layer of the OSI model that forms a constant connection between two devices for the duration it takes for the data to be sent/recieved. It checks the data to make sure it's all been recieved and is assembled in the correct order.
 - **Threat Modeling:** A process in which threats to account for in software development/support are identified and categorised. 
 ## U
+- **User Datagram Protocol:** A protocol at the transport layer of the OSI model that sends data but does not check if it's recieved by the target device.
 - **Unit Tests:** Tests that are conducted on single components of an application to ensure they are working correctly and can include security checks.
 ## V
 - **Vulnerability Scan:** Identify weaknesses within an application and it's resources such as the libraries it uses.
