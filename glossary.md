@@ -1,25 +1,29 @@
 # Glossary of Encountered terms
-*Last updated: 22/10/2025*
+*Last updated: 23/10/2025*
 
 ## A
 - **Access Controls:** Measures such as passwords and group policies that only allow authorised people to access data.
 - **ARP (Address Resolution Protocol):** The technology that allows devices to identify themselves on a network by sending ARP Requests for a MAC address belonging to a certain IP address and an ARP reply containing the MAC address if a devices IP address matches the request. The device then saves the IP and MAC addresses to its ARP Cache.
+- **Attack Surface:** All points in a system where attackers can enter it, or impact it.
 - **Audit Trails:** A record of all the changes made to data including the time is was changed and who by.
 - **Availability:** Ensuring data is able to be accessed when required and for whatever duration required.
 ## B
 - **Blue Team:** A person(s) responsible for defending a network or system from attacks.
 ## C
+- **C2M2 (Cybersecurity Capability Maturity Model):** A model used by organisations to evaluate their security maturity.
 - **Checksums:** A mathematical algorithm that generates unique values for data sets. When the data changes so will the value, indicating there's been an alteration.
 - **CIA Triad:** The model within cybersecurity consisting of Confidentiality, Integrity and Availability.
 - **Confidentiality:** Keeping data secret or private, with only authorised people being able to access it.
 ## D
-- **DDoS (Distributed Denial-of-Service) attack:** An attack which stems from multiple devices (usually called bots or zombies) in order to cause an outage.
-- **DoS (Denial-of-Service) attack:** An attack which disrupts a part of or complete system, causing an outage.
 - **DAST (Dynamic Application Security Testing):** A form of vulnerability scan that looks for weaknesses to exploit in a running application.
+- **DDoS (Distributed Denial-of-Service) attack:** An attack which stems from multiple devices (usually called bots or zombies) in order to cause an outage.
 - **Default Gateway:** The address assigned to the device on the network that is capable of sending information to other networks, usually a router.
+- **Defense in Depth:** Using multiple layers of security to protect assests.
 - **DHCP (Dynamic Host Configuration Protocol):** The protocol used to automatically assign IP addresses to devices on a network. DHCP Discover > DHCP Offer > DHCP Request > DHCP ACK.
 - **Digital Security:** Protecting data and systems from digital threats such as hackers or malware.
+- **DMZ (Demilitarised Zone):** A network segment that acts as a buffer by sitting between an organisations private network and the internet.
 - **DNS (Domain Name System)**: The protocol that resolves domain names in to IP addresses.
+- **DoS (Denial-of-Service) attack:** An attack which disrupts a part of or complete system, causing an outage.
 ## E
 - **Encryption:** Transform data into an unreadable form, that can only be transformed back by the correct decryption key.
 - **Ethical Hacker:** A hacker who works with clients/companies by hacking their systems in order to test and better them in order to be more resilient to the real deal.
@@ -40,6 +44,7 @@
 ## K
 
 ## L
+- **Least Privilege:** The principle that users and applications should have the fewest permissions possible to complete their job.
 - **Likelihood:** The chance of a risk occuring. One equation is Adversary Capability * Adversary Motivation * Vulnerability Severity.
 - **Lockheed Martin Cyber Kill Chain Framework:** A framework depicting the seven steps of a typical cyberattack. Reconnaissance > Weaponisation > Delivery > Exploitation > Installation > Command & Control (C2) > Actions on Objectives.
 ## M
@@ -55,7 +60,8 @@
 - **OSI (Open Systems Interconnection) Model:** A model depicting how all networked devices send, receive and interpret data. Physical > Data Link > Network > Transport > Session > Presentation > Application.
 - **OSINT (Open-Source Intelligence):** Intelligence acquired from publicly available sources and websites.
 - **OSPF (Open Shortest Path First):** A protocol to used to determine where to send data at the network layer of the OSI by selecting the path with the least devices to transverse.
-## P
+## 
+- **Patch Management:** Part of software vulnerability management where systems are updated and patches are applied to fix problems when available.
 - **Phishing:** Sending messages to trick people into performing specific actions.
 - **Physical Security:** Protecting physical devices and other tangible assests from physical threats such as theft or natural disasters.
 ## Q
@@ -69,6 +75,7 @@
 - **SAST (Static Application Security Testing):** A form of vulnerability scan that scans an applications code while it isn't running.
 - **Script Kiddie:** Usually a novice hacker, who uses tools/software developed by more capable hackers.
 - **Secrets Detection:** Scanning for sensitive credentials in code of files that the developer may have accidentally left in, such as passwords and encryption keys.
+- **Security Maturity:** The measure of how well organisations can defend from and respond to cybersecurity threats.
 - **SIEM (Security Information and Event Management):** Software and processes that collect and analyse log and event data within an organisation to identify suspicious activity and generate alerts.
 - **SOC (Security Operations Centre):** A centralised unit responsible for managing and responding to cybersecurity threats.
 - **Social Engineering:** Manipulating someone to make them perform specific actions, usually to acquire sensitive information.
