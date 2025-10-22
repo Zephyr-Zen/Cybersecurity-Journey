@@ -1,10 +1,10 @@
 # Glossary of Encountered terms
-*Last updated: 21/10/2025*
+*Last updated: 22/10/2025*
 
 ## A
 - **Access Controls:** Measures such as passwords and group policies that only allow authorised people to access data.
-- **Audit Trails:** A record of all the changes made to data including the time is was changed and who by.
 - **ARP (Address Resolution Protocol):** The technology that allows devices to identify themselves on a network by sending ARP Requests for a MAC address belonging to a certain IP address and an ARP reply containing the MAC address if a devices IP address matches the request. The device then saves the IP and MAC addresses to its ARP Cache.
+- **Audit Trails:** A record of all the changes made to data including the time is was changed and who by.
 - **Availability:** Ensuring data is able to be accessed when required and for whatever duration required.
 ## B
 - **Blue Team:** A person(s) responsible for defending a network or system from attacks.
@@ -13,10 +13,13 @@
 - **CIA Triad:** The model within cybersecurity consisting of Confidentiality, Integrity and Availability.
 - **Confidentiality:** Keeping data secret or private, with only authorised people being able to access it.
 ## D
+- **DDoS (Distributed Denial-of-Service) attack:** An attack which stems from multiple devices (usually called bots or zombies) in order to cause an outage.
+- **DoS (Denial-of-Service) attack:** An attack which disrupts a part of or complete system, causing an outage.
 - **DAST (Dynamic Application Security Testing):** A form of vulnerability scan that looks for weaknesses to exploit in a running application.
 - **Default Gateway:** The address assigned to the device on the network that is capable of sending information to other networks, usually a router.
 - **DHCP (Dynamic Host Configuration Protocol):** The protocol used to automatically assign IP addresses to devices on a network. DHCP Discover > DHCP Offer > DHCP Request > DHCP ACK.
 - **Digital Security:** Protecting data and systems from digital threats such as hackers or malware.
+- **DNS (Domain Name System)**: The protocol that resolves domain names in to IP addresses.
 ## E
 - **Encryption:** Transform data into an unreadable form, that can only be transformed back by the correct decryption key.
 - **Ethical Hacker:** A hacker who works with clients/companies by hacking their systems in order to test and better them in order to be more resilient to the real deal.
@@ -38,16 +41,22 @@
 
 ## L
 - **Likelihood:** The chance of a risk occuring. One equation is Adversary Capability * Adversary Motivation * Vulnerability Severity.
+- **Lockheed Martin Cyber Kill Chain Framework:** A framework depicting the seven steps of a typical cyberattack. Reconnaissance > Weaponisation > Delivery > Exploitation > Installation > Command & Control (C2) > Actions on Objectives.
 ## M
 - **MAC (Media Access Control) Address:** A unique identifier for the physical device, found on the the Network Interface Card (NIC).
 - **Malicious Insider:** Someone within an organisation/with authorised access to a resource that intends to harm that organisation/resource.
+- **Malware:** All types of malicious/harmful software.
+- **MitM (Man-in-the-Middle) attack:** An attack where hackers insert themselves between a client and server, allowing them to listen in on communication or redirect the victim to fake sites.
+- **MITRE ATT&CK (Adversarial Tactics, Techniques, and Common Knowledge) Matrix:** A table of information created by MITRE based on tatics cyberattackers used, in order to help examine cyberattacks.
 ## N
 - **Nation-state Hacker:** Hackers who seek to provide a strategic advantage to their country through methods such as reconnaissance or information manipulation.
 - **Network Address:** The starting portion of an IP Address that identifies the network i.e *192.168.1*.0 .
 ## O
 - **OSI (Open Systems Interconnection) Model:** A model depicting how all networked devices send, receive and interpret data. Physical > Data Link > Network > Transport > Session > Presentation > Application.
+- **OSINT (Open-Source Intelligence):** Intelligence acquired from publicly available sources and websites.
 - **OSPF (Open Shortest Path First):** A protocol to used to determine where to send data at the network layer of the OSI by selecting the path with the least devices to transverse.
 ## P
+- **Phishing:** Sending messages to trick people into performing specific actions.
 - **Physical Security:** Protecting physical devices and other tangible assests from physical threats such as theft or natural disasters.
 ## Q
 
@@ -62,8 +71,11 @@
 - **Secrets Detection:** Scanning for sensitive credentials in code of files that the developer may have accidentally left in, such as passwords and encryption keys.
 - **SIEM (Security Information and Event Management):** Software and processes that collect and analyse log and event data within an organisation to identify suspicious activity and generate alerts.
 - **SOC (Security Operations Centre):** A centralised unit responsible for managing and responding to cybersecurity threats.
+- **Social Engineering:** Manipulating someone to make them perform specific actions, usually to acquire sensitive information.
+- **Spear Phishing:** Sending specifically targeted messages in order to get a precise individual or company to perform specific actions.
 - **Subnetting:** Splitting up a network into smaller networks.
 ## T
+- **Tailgating:** A form of social engineering where an unauthorised person closely follows an authorised person in to an area which requires authorisation.
 - **TCP (Transmission Control Protocol):** A protocol at the transport layer of the OSI model that forms a constant connection between two devices for the duration it takes for the data to be sent/recieved. It checks the data to make sure it's all been recieved and is assembled in the correct order.
 - **Threat Modeling:** A process in which threats to account for in software development/support are identified and categorised. 
 ## U
