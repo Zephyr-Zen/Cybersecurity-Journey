@@ -1,5 +1,5 @@
 # Glossary of Encountered terms
-*Last updated: 23/10/2025*
+*Last updated: 26/10/2025*
 
 ## A
 - **Access Controls:** Measures such as passwords and group policies that only allow authorised people to access data.
@@ -32,7 +32,7 @@
 - **Encryption:** Transform data into an unreadable form, that can only be transformed back by the correct decryption key.
 - **Ethical Hacker:** A hacker who works with clients/companies by hacking their systems in order to test and better them in order to be more resilient to the real deal.
 ## F
-
+- **Firewall:** A device within networks that can be configured to permit/deny traffic.
 ## G
 
 ## H
@@ -100,6 +100,7 @@
 - **User Datagram Protocol:** A protocol at the transport layer of the OSI model that sends data but does not check if it's recieved by the target device.
 - **Unit Tests:** Tests that are conducted on single components of an application to ensure they are working correctly and can include security checks.
 ## V
+- **VPN (Virtual Private Network):** Technology that allows devices on different networks to be securely connected over the internet to each other via tunnels.
 - **Vulnerability Scan:** Identify weaknesses within an application and it's resources such as the libraries it uses.
 ## W
 
